@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<nav class="admin_navbar">
+		<ul>
+			<li><a  class="adminbrand">E-Library</a></li>
+			<li><a href="navlibrarian.html">Home</a></li>
+			<li><a href="issuebookform.html">Issue Book</a></li>
+	        <li><a href="index.html">Logout</a></li>		
+		</ul>
+	</nav>
+<div class="box">
+  <div class="border">	
+	<h3>Return Book Form</h3>
+	
+	  <form action="ReturnBook" method="post">
+	  
+	    <label>Callno</label>
+	    <input type="text" name="callno" placeholder="Callno"/><br>
+	    
+	    <label>Student Id</label>
+	    <input type="text" name="studentid" placeholder="StudentId"/><br><br>
+	    
+	    <button class="add-button" type="submit">Return Book</button>
+	  </form>
+	  
+  </div>
+</div>	
+</body>
+</html>

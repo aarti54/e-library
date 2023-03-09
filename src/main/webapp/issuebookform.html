@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Issue Book</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<nav class="admin_navbar">
+		<ul>
+			<li><a  class="adminbrand">E-Library</a></li>
+			<li><a href="navlibrarian.html">Home</a></li>
+			<li><a href="ViewIssuedBook">View Issued Book</a></li>
+	        <li><a href="index.html">Logout</a></li>
+		
+		</ul>
+	</nav>
+<div class="box">
+	<div class="border">
+		<h3>Issue Book Form</h3>
+		  <form action="IssueBook" method="post">
+		  
+		    <label>Book Callno</label>
+		    <input type="text" name="callno" placeholder="Callno"/><br>
+		    
+		    <label>Student Id</label>
+		    <input type="text"  name="studentid" placeholder="Student Id"/><br>
+		    
+		    <label>Student Name</label>
+		    <input type="text"  name="studentname" placeholder="Student Name"/><br>
+		    
+		    <label>Student Mobile</label>
+		    <input type="number"  name="studentmobile" placeholder="Student Mobile"/><br><br>
+		    
+		    <button class="add-button" type="submit" >Issue Book</button>
+		 </form>
+	</div>
+</div>
+</body>
+</html>
