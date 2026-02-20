@@ -81,23 +81,6 @@ LibraryManagementSystem/
    - Add the project to your Tomcat server
    - Start the server and open `http://localhost:8080/LibraryManagementSystem`
 
----
-
-## 📸 Screenshots
-
-> *(Add screenshots of your login page, dashboard, and book management page here)*
-
----
-
-## 👩‍💻 Author
-
-**Aarti Vishwakarma**  
-B.Tech Computer Science | Java Developer  
-📧 aartivishwakarma39@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/aartiv-143946202)  
-🐙 [GitHub](https://github.com/aarti54)
-
----
 
 ## 📄 License
 
