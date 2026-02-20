@@ -1,10 +1,10 @@
-# 📚 Library Management System
+# Library Management System
 
 A full-stack web application for managing library operations, built with Java, Servlets, JDBC, Hibernate, and MySQL. Designed to simplify book management, user authentication, and reporting for library administrators.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **User Authentication** — Secure login and registration for admin and users
 - **Book Management** — Add, update, delete, and search books by title, author, or category
@@ -14,7 +14,7 @@ A full-stack web application for managing library operations, built with Java, S
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer       | Technology              |
 |-------------|-------------------------|
@@ -26,7 +26,7 @@ A full-stack web application for managing library operations, built with Java, S
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 LibraryManagementSystem/
@@ -47,7 +47,7 @@ LibraryManagementSystem/
 
 ---
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
 ### Prerequisites
 - Java JDK 8 or above
@@ -81,7 +81,3 @@ LibraryManagementSystem/
    - Add the project to your Tomcat server
    - Start the server and open `http://localhost:8080/LibraryManagementSystem`
 
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
